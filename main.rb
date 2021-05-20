@@ -1,0 +1,1 @@
+# when the program starts, ask the user name
