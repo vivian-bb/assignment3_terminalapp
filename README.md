@@ -1,3 +1,3 @@
 # Assignment3_terminal_app
 
-# Add greeting part and ask user to input name
+## Add greeting part and ask user to input name

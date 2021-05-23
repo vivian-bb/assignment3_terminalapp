@@ -58,22 +58,37 @@ def check_in(check_new_user)
         puts "Press 3), toss 5 times."
         puts "Press 4), exit the game."
         menu_input = gets.chomp.to_i
-           case menu_input
+        original_result = ["Head", "Tail", "Head", "Tail", "Head", "Tail", "Head","Tail", "Head", "Tail"]
+        random_number = original_result.shuffle 
+        case menu_input
            when 1 
-            puts "toss coin once."
+            puts "You got a #{random_number[0]}."
+            sleep(2)
+            system "clear"
+
            when 2
-            puts "toss coin thrice"
+            puts "You got #{random_number[0]}, #{random_number[1]} and #{random_number[2]}"
+            sleep(2)
+            system "clear"      
            when 3
-            puts "toss coin five times" 
+            puts "You got #{random_number[0]}, #{random_number[1]}, #{random_number[2]}, #{random_number[3]}.#{random_number[4]}"
+            sleep(2)
+            system "clear"  
            when 4
             
             puts "Thanks! good bye!"
+            system "clear"
             break
+           else puts "That's invalid input. Let's try again."
+           
+            sleep(2)
+            system "clear"
+            menu_input
            end
        end
        else puts"Thanks, hope you have a great day!"
        end
-    else puts " Please enter yes or no: "
+    else puts "invalid input, please enter yes or no: "
   end
 end #for def
 
