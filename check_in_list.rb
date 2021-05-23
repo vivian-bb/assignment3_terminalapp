@@ -1,3 +1,0 @@
-class CheckInList
-
-end
