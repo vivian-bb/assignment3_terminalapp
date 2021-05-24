@@ -49,13 +49,11 @@ def new_user_check
     puts "Hi there. Glad to see you #{@user_name}! Let's check your number now."
  
  #input user name to client_data.txt   
-
-  File.write("client_data.txt", "#{@user_name}") 
-  aFile = File.new("client_data.txt", "r") 
-  @user_string = aFile.read
-  @user_string.add(new_user)
+ File.open("client_data.txt", "a") { |f| f.write "#{@user_name}\n" }
+ # check the user's index number
+ 
 #  FileIO.write(@user_string)
- #check the index of the user in the user list
+ #return the index of the user in the user list
     puts "Emmmm, your number is..."
     sleep(2)
     puts "random_number"
@@ -90,6 +88,7 @@ def count_down
 end
 
 def good_bye
-    puts "Thanks! good bye!"
-    sleep(3)
+    puts "Thanks! Good bye #{@user_name}!"
+    sleep(2)
+    system 'clear'
 end

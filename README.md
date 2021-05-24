@@ -11,6 +11,8 @@
 ## add the colorize to gemfile
 
 ## apply colorize method to the user's name
+
+## file I/O function that add the user to client_data.rb successfully
 ------------------------------------------------------
 ### Software Development Plan
 
