@@ -8,13 +8,15 @@
 
 ## Add input function that input user's name to client-data file
 
-## add the colorize to gemfile
+## Add the colorize to gemfile
 
-## apply colorize method to the user's name
+## Apply colorize method to the user's name
 
-## file I/O function that add the user to client_data.rb successfully
+## File I/O function that add the user to client_data.rb successfully
 
-## add espeak-ruby gem in gemfile
+## Add espeak-ruby gem in gemfile
+
+## Change the color of 'Start' and greeting words
 ------------------------------------------------------
 ### Software Development Plan
 

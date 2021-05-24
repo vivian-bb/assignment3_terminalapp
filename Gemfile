@@ -10,4 +10,4 @@ gem "rspec", "~> 3.10"
 
 gem "colorize", "~> 0.8.1"
 
-gem "espeak-ruby", "~> 1.0"
+gem "espeak-ruby", "~> 1.0", require: "espeak"

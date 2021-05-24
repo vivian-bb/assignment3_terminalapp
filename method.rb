@@ -1,5 +1,6 @@
 require 'colorize'
-require 'espeak-ruby'
+require "espeak"
+require 'colorized_string'
 
 def initialize
 @user_name = user_name
@@ -15,17 +16,17 @@ def greeting_color
 end
 
 def greeting
-    puts "Hi there!"
+    puts ColorizedString["Hi there!"].colorize(:light_magenta)
     sleep(1)
-    puts "Welcome to our check-in app!"
+    puts ColorizedString["Welcome to our check-in app!"].colorize(:yellow)
     sleep(1)
-    puts "What's your full name?"
+    puts ColorizedString["What's your full name?"].colorize(:light_black)
     sleep(1)
     #take input from user
-     print "> "
+     print  print ColorizedString["> "].colorize(:blue)
     @user_name = gets.strip.upcase.colorize(greeting_color)
         puts "Hi #{@user_name}, nice to meet you!"
-
+   
 end
 
 
@@ -66,15 +67,18 @@ def new_user_check
 #  FileIO.write(@user_string)
  #return the index of the user in the user list
  if line_count == 8 || line_count == 18 ||  line_count == 28 ||  line_count == 38 
-    puts "Oh, lucky guy! your number is 00#{line_count}."
+    
+    puts ColorizedString[" Oh, lucky you! "].colorize(:light_yellow ).colorize( :background => :red)
+    puts " your number is 00#{line_count}."
     sleep(1)
-    puts "You Won the Lottery! Congratulations!"
+    puts ColorizedString[" You Won the Lottery! Congratulations! "].colorize(:light_yellow ).colorize( :background => :red)
     sleep(1)
     puts "Find our staff member and show him this message."
 
  else
     puts "Thanks for waiting, your number is..00#{line_count}."
     sleep(2)
+    puts "Have fun!"
  end
 end
 
@@ -87,15 +91,15 @@ def tossing_coin_method
     puts "Press 3) toss 5 times."
     puts "Press 4) exit the game."
     puts "Press 5) back to the menu."
-    print "> "
+    print ColorizedString["> "].colorize(:blue)
     #ask user input data
     toss_coins_menu = gets.chomp.to_i
 
 end
 
 def count_down
-
-    puts "Start"
+    puts ColorizedString["_Start_ "].colorize(:white ).colorize( :background => :red)
+    # puts "Start"
             sleep(2)
             puts "3"
             sleep(1)

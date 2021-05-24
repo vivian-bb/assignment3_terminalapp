@@ -7,3 +7,4 @@
 [0;96;49mSophie[0m
 [0;93;49mVivian[0m
 [0;92;49mVIVIAN ZHANG[0m
+[0;35;49mVIVIAN[0m
