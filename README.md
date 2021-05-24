@@ -8,7 +8,9 @@
 
 ## Add input function that input user's name to client-data file
 
-## try to use the gem of colorize to app
+## add the colorize to gemfile
+
+## apply colorize method to the user's name
 ------------------------------------------------------
 ### Software Development Plan
 

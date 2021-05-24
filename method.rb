@@ -1,3 +1,4 @@
+require 'colorize'
 
 def initialize
 @user_name = user_name
@@ -6,6 +7,11 @@ def initialize
 end
 
 
+
+def greeting_color
+     colours = String.colors.dup - [:black, :light_black, :yellow, :blue]
+     return colours.sample
+end
 
 def greeting
     puts "Hi there!"
@@ -16,10 +22,12 @@ def greeting
     sleep(1)
     #take input from user
      print "> "
-    @user_name = gets.strip.capitalize
-    puts "Hi #{@user_name}, nice to meet you!"
+    @user_name = gets.strip.capitalize.colorize(greeting_color)
+        puts "Hi #{@user_name}, nice to meet you!"
 
 end
+
+
 
 def check_user_name
     
@@ -42,11 +50,11 @@ def new_user_check
  
  #input user name to client_data.txt   
 
-   aFile = File.write("client_data.txt", "#{@user_name}") 
-   @user_string = aFile.read
-   @new_user = @user_name
-   @user_string.add(new_user)
- FileIO.write(@user_string)
+  File.write("client_data.txt", "#{@user_name}") 
+  aFile = File.new("client_data.txt", "r") 
+  @user_string = aFile.read
+  @user_string.add(new_user)
+#  FileIO.write(@user_string)
  #check the index of the user in the user list
     puts "Emmmm, your number is..."
     sleep(2)

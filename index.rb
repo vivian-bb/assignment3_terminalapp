@@ -45,7 +45,7 @@ while true
 
     when 3
      good_bye
-     
+
      break
     end
 end
