@@ -1,6 +1,8 @@
 
 def initialize
 @user_name = user_name
+@user_string = user_string
+@new_user = new_user
 end
 
 
@@ -39,7 +41,12 @@ def new_user_check
     puts "Hi there. Glad to see you #{@user_name}! Let's check your number now."
  
  #input user name to client_data.txt   
-    File.write("client_data", "#{@user_name}") 
+
+   aFile = File.write("client_data.txt", "#{@user_name}") 
+   @user_string = aFile.read
+   @new_user = @user_name
+   @user_string.add(new_user)
+ FileIO.write(@user_string)
  #check the index of the user in the user list
     puts "Emmmm, your number is..."
     sleep(2)
