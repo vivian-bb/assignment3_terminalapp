@@ -1,2 +1,9 @@
 [0;35;49mSophie[0m
 [0;32;49mBiran[0m
+[0;35;49mBrian[0m
+[0;37;49mVivian[0m
+[0;39;49mVivian[0m
+[0;93;49mVivian[0m
+[0;96;49mSophie[0m
+[0;93;49mVivian[0m
+[0;92;49mVIVIAN ZHANG[0m

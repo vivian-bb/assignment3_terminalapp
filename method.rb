@@ -1,4 +1,5 @@
 require 'colorize'
+require 'espeak-ruby'
 
 def initialize
 @user_name = user_name
@@ -18,11 +19,11 @@ def greeting
     sleep(1)
     puts "Welcome to our check-in app!"
     sleep(1)
-    puts "What's your name?"
+    puts "What's your full name?"
     sleep(1)
     #take input from user
      print "> "
-    @user_name = gets.strip.capitalize.colorize(greeting_color)
+    @user_name = gets.strip.upcase.colorize(greeting_color)
         puts "Hi #{@user_name}, nice to meet you!"
 
 end
@@ -46,17 +47,35 @@ def new_user_check
     # if the name is not in the list, add the name, and give back a client number.
     #if client number is 8, 18, 28, 38, give a congratulation message, ask them to contect staff. 
 
-    puts "Hi there. Glad to see you #{@user_name}! Let's check your number now."
- 
+    puts "Hi there. Glad to see you #{@user_name}!"
+    sleep(2)
+    puts "One second, let's check your number now."
+    sleep(2)
+    print "."
+    sleep(1)
+    print "."
+    sleep(1)
+    print "."
+    sleep(1)
  #input user name to client_data.txt   
  File.open("client_data.txt", "a") { |f| f.write "#{@user_name}\n" }
  # check the user's index number
- 
+ filename = 'client_data.txt'
+ line_count = `wc -l "#{filename}"`.strip.split(' ')[0].to_i 
+  
 #  FileIO.write(@user_string)
  #return the index of the user in the user list
-    puts "Emmmm, your number is..."
+ if line_count == 8 || line_count == 18 ||  line_count == 28 ||  line_count == 38 
+    puts "Oh, lucky guy! your number is 00#{line_count}."
+    sleep(1)
+    puts "You Won the Lottery! Congratulations!"
+    sleep(1)
+    puts "Find our staff member and show him this message."
+
+ else
+    puts "Thanks for waiting, your number is..00#{line_count}."
     sleep(2)
-    puts "random_number"
+ end
 end
 
 def tossing_coin_method

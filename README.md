@@ -13,6 +13,8 @@
 ## apply colorize method to the user's name
 
 ## file I/O function that add the user to client_data.rb successfully
+
+## add espeak-ruby gem in gemfile
 ------------------------------------------------------
 ### Software Development Plan
 
