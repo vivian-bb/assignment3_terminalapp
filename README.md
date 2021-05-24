@@ -8,6 +8,7 @@
 
 ## Add input function that input user's name to client-data file
 
+## try to use the gem of colorize to app
 ------------------------------------------------------
 ### Software Development Plan
 
@@ -29,7 +30,7 @@ The target audience is 5 ~ 35 people event.
 #### Features
 ------------------------------------------------------
 Features 
-
+Passing method to programme.
 ------------------------------------------------------
 #### diagram
 ------------------------------------------------------
