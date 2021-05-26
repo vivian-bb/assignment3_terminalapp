@@ -50,5 +50,8 @@ while true
      good_bye
 
      break
+
+    else
+        puts "Invalid input, please try again.(Input 1~3) "
     end
 end

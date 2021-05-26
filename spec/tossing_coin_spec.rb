@@ -1,6 +1,6 @@
 require_relative ("../method.rb")
 
-describe 'CheckInAndTossing' do 
+describe 'CheckIn' do 
     # before(:each) do
     #     @checking_and_tossing =  CheckInAndTossing.new
     # end
