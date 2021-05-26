@@ -1,8 +1,9 @@
 require_relative "method"
 
-class CheckInAndTossing
+
 
 #Greeting and ask user name.
+welcome_message
 greeting
 
 while true
@@ -14,7 +15,6 @@ while true
    #push clients to the group and reture clients a number 
    #let them know if their number is 8, 18, 28,38, they will get congratulation message.
    #else, puts the thanks check-in message, reture to the menu.    
-     
 
     when 2 #tossing coin game.
         tossing_coin_loop = true
@@ -25,13 +25,16 @@ while true
         when 1 
             count_down
             puts "You got a '#{original_result.shuffle[0]}'"
+            sleep(3)
           
         when 2
             count_down
             puts "You got '#{original_result.shuffle[0]}', '#{original_result.shuffle[1]}', '#{original_result.shuffle[2]}'"
+            sleep(3)
         when 3
             count_down
             puts "You got '#{original_result.shuffle[0]}', '#{original_result.shuffle[1]}', '#{original_result.shuffle[2]}', '#{original_result.shuffle[3]}', '#{original_result.shuffle[4]}'"
+            sleep(3)
         when 4
             puts "Type yes to quit"
             quit_choice = gets.chomp.downcase
@@ -48,5 +51,4 @@ while true
 
      break
     end
-end
 end
