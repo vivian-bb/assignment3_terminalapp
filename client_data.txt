@@ -1,10 +1,13 @@
-[0;35;49mSophie[0m
-[0;32;49mBiran[0m
-[0;35;49mBrian[0m
-[0;37;49mVivian[0m
-[0;39;49mVivian[0m
-[0;93;49mVivian[0m
-[0;96;49mSophie[0m
-[0;93;49mVivian[0m
-[0;92;49mVIVIAN ZHANG[0m
-[0;35;49mVIVIAN[0m
+
+stringvalue
+stringvalue
+[0;97;49mSOPHIE[0m
+[0;97;49mNATACHA[0m
+[0;94;49mSOPHIE[0m
+[0;96;49mVIVIAN[0m
+[0;35;49mSOPHIE[0m
+[0;94;49mBRIAN[0m
+[0;39;49mVIVIAN[0m
+[0;91;49mVIVIAN[0m
+[0;31;49mVIVIAN[0m
+[0;32;49mFEIMI[0m
