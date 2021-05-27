@@ -1,4 +1,12 @@
-# Assignment3_terminal_app
+# Term1_Assignment3_Terminal_Application
+
+---
+
+##Source control
+
+---
+
+Click [My Github](https://github.com/vivian-bb/assignment3_terminalapp "Vivian's Github")
 
 ##### Add greeting part and ask user to input name
 
@@ -38,7 +46,7 @@
 
 ---
 
-### Develop a statement of purpose and scope for your application:
+### Develop a statement of purpose and scope for your application
 
 This app is design for provide to check-in service for organizer who need to running small size event and function. Most event will need one or two staff to work for check-in guests, the app will instead of paperwork and also automatic finish the lottery. Otherwise, the app also have the entertainment function that the user will get the lottery chance and choosing to play tossing coin game.
 
@@ -72,7 +80,7 @@ Feature 3
 
 ---
 
-##### The user who is require a guest check-in system.
+##### The user who is require a guest check-in system
 
 1. Download Ruby 2.7.1 or uper.
 2. Ruby Bundler install the Ruby colorize gem.
@@ -89,7 +97,7 @@ Feature 3
 
 ---
 
-![Diagram!](/doc/diagram.png "diagram")
+![Diagram!](../doc/diagram.png "diagram")
 
 ---
 
@@ -99,10 +107,10 @@ Feature 3
 
 [Click here](https://docs.google.com/spreadsheets/d/1CLAdqfYu0Y8tO7SLcoBg99b9pW2JXJJpPiqGjf-vNW4/edit?usp=sharing "Manual testing") to see the original sheet of manual testing.
 
-1. ![Manual-testing-feature!](/doc/feature.png "feature-testing1")
-2. ![Manual-testing!](/doc/manualtest1.png "manual-testing1")
-3. ![Manual-testing!](/doc/manualtest2.png "manual-testing1")
-4. ![Manual-testing!](/doc/manualtest3.png "manual-testing1")
+1. ![Manual-testing-feature!](../doc/feature.png "feature-testing1")
+2. ![Manual-testing!](../doc/manualtest1.png "manual-testing1")
+3. ![Manual-testing!](../doc/manualtest2.png "manual-testing1")
+4. ![Manual-testing!](../doc/manualtest3.png "manual-testing1")
 
 ---
 
@@ -111,4 +119,4 @@ Feature 3
 ---
 
 Use trello to control working tasks and management the project.
-![trello!](/doc/trello.png "trello")
+![trello!](../doc/trello.png "trello")
