@@ -1,32 +1,36 @@
 # Assignment3_terminal_app
 
-## Add greeting part and ask user to input name
+##### Add greeting part and ask user to input name
 
-## Set the tossing coin code, create a new index file restucture all the code
+##### Set the tossing coin code, create a new index file restucture all the code
 
-## Create method.rb, put most method in this file, finish tossing coin part
+##### Create method.rb, put most method in this file, finish tossing coin part
 
-## Add input function that input user's name to client-data file
+##### Add input function that input user's name to client-data file
 
-## Add the colorize to gemfile
+##### Add the colorize to gemfile
 
-## Apply colorize method to the user's name
+##### Apply colorize method to the user's name
 
-## File I/O function that add the user to client_data.rb successfully
+##### File I/O function that add the user to client_data.rb successfully
 
-## Add espeak-ruby gem in gemfile
+##### Add espeak-ruby gem in gemfile
 
-## Change the color of 'Start' and greeting words
+##### Change the color of 'Start' and greeting words
 
-## Add the slide to documentation file
+##### Add the slide to documentation file
 
-## Fixed the test error
+##### Fixed the test error
 
-## Add the testfile to the documentation file
+##### Add the testfile to the documentation file
+
+##### Add the manual test screenshot
+
+##### Adjust the test error
 
 ---
 
-### Software Development Plan
+#### Software Development Plan
 
 #### Small Marketing Event Check-in Application
 
@@ -79,8 +83,21 @@ Feature 3
 
 ---
 
-#### diagram
+#### Diagram
 
 ---
 
-![Diagram!](/images/diagram.png "diagram")
+![Diagram!](/doc/diagram.png "diagram")
+
+---
+
+#### Manual testing
+
+---
+
+[Click here](https://docs.google.com/spreadsheets/d/1CLAdqfYu0Y8tO7SLcoBg99b9pW2JXJJpPiqGjf-vNW4/edit?usp=sharing "Manual testing") to see the original sheet of manual testing.
+
+1. ![Manual-testing-feature!](/doc/feature.png "feature-testing1")
+2. ![Manual-testing!](/doc/manualtest1.png "manual-testing1")
+3. ![Manual-testing!](/doc/manualtest2.png "manual-testing1")
+4. ![Manual-testing!](/doc/manualtest3.png "manual-testing1")
