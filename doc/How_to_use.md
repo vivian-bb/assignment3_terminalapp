@@ -1,43 +1,3 @@
-# Term1_Assignment3_Terminal_Application
-
----
-
-##Source control
-
----
-
-Click [My Github](https://github.com/vivian-bb/assignment3_terminalapp "Vivian's Github")
-
-##### Add greeting part and ask user to input name
-
-##### Set the tossing coin code, create a new index file restucture all the code
-
-##### Create method.rb, put most method in this file, finish tossing coin part
-
-##### Add input function that input user's name to client-data file
-
-##### Add the colorize to gemfile
-
-##### Apply colorize method to the user's name
-
-##### File I/O function that add the user to client_data.rb successfully
-
-##### Add espeak-ruby gem in gemfile
-
-##### Change the color of 'Start' and greeting words
-
-##### Add the slide to documentation file
-
-##### Fixed the test error
-
-##### Add the testfile to the documentation file
-
-##### Add the manual test screenshot
-
-##### Adjust the test error
-
-##### Restucture as Deliverable standard
-
 ### Software Development Plan
 
 ### Small Marketing Event Check-in Application
@@ -118,7 +78,7 @@ Feature 3
 
 ---
 
-![Diagram!](../doc/diagram.png "diagram")
+![Diagram!](diagram.png "diagram")
 
 ---
 
